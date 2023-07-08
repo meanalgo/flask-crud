@@ -78,6 +78,7 @@ docker co
 
 docker run -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:alpine
 
+wget https://get.jenkins.io/war-stable/2.401.1/jenkins.war
 
 java -jar jenkins.war --httpPort=8090
 
